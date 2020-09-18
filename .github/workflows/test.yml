@@ -1,0 +1,29 @@
+name: Vérification du respect des spécifications
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Installation Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.7'
+    - name: Cache pip
+      uses: actions/cache@v1
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+          ${{ runner.os }}-
+    - name: Installation des dépendances
+      run: pip install -r requirements.txt
+    - name: Vérification du schéma et des fichiers d'exemples
+      run: |
+        tableschema validate schema.json
+        goodtables validate --schema schema.json exemple-valide.csv
+        goodtables validate --schema schema.json exemple-valide.xlsx
