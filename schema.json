@@ -1,16 +1,14 @@
 {
    "$schema":"https://specs.frictionlessdata.io/schemas/table-schema.json",
-   "name":"objets-importants",
-   "title":"Schéma des objets importants",
-   "description":"Spécification du fichier d'échange relatif aux objets importants gérés par les collectivités.",
+   "name":"aménagements cyclables",
+   "title":"Schéma d'aménagements cyclables",
+   "description":"Spécification du schéma de données d'aménagements cyclables",
    "keywords":[
-      "objets",
-      "autre-tag"
+      "transport", "mobilité", "vélo","aménagements cyclables"
    ],
    "countryCode":"FR",
-   "homepage":"https://github.com/mon-orga/schema-objets-importants",
-   "path":"https://github.com/mon-orga/schema-objets-importants/raw/v0.1.1/schema.json",
-   "image":"https://github.com/mon-orga/schema-objets-importants/raw/v0.1.1/irve.png",
+   "homepage":"https://github.com/etalab/schema_amenagements_cyclables",
+   "path":"https://github.com/etalab/schema_amenagements_cyclables/raw/master/schema.json",
    "licenses":[
       {
          "title":"Etalab Licence Ouverte 2.0",
@@ -22,61 +20,39 @@
       {
          "title":"Fichier valide (CSV)",
          "name":"exemple-valide-csv",
-         "path":"https://github.com/mon-orga/schema-objets-importants/raw/v0.1.1/exemple-valide.csv"
+         "path":"https://github.com/etalab/schema_amenagements_cyclables/raw/master/exemple-valide.csv"
       }
    ],
-   "sources":[
-      {
-         "title":"Arrêté du 12 janvier 2017 relatif aux objets importants",
-         "path":"https://beta.legifrance.gouv.fr/codes/id/LEGISCTA000031367685/2020-05-25"
-      }
-   ],
-   "created":"2018-06-29",
-   "lastModified":"2019-05-06",
-   "version":"0.1.1",
+ 
+   "created":"2020-09-18",
+   "lastModified":"2020-09-18",
+   "version":"0.1.0",
    "contributors":[
       {
-         "title":"John Smith",
-         "email":"john.smith@etalab.gouv.fr",
-         "organisation":"Etalab",
+         "title":"Miryad Ali",
+         "email":"miryad.ali@beta.gouv.fr",
+         "organisation":"transport.data.gouv.fr",
          "role":"author"
       },
       {
-         "title":"Jane Doe",
-         "email":"jane.doe@example.com",
-         "organisation":"Association très importante",
-         "role":"contributor"
+         "title":"Thomas Montaigne",
+         "email":"thomas.montagne@velo-territoires.org",
+         "organisation":"Association Vélo & Territoires",
+         "role":"author"
       }
    ],
    "fields":[
       {
          "name":"id",
-         "description":"Un identifiant unique de l'objet.",
-         "example":"42",
-         "type":"integer",
-         "constraints":{
-            "required":true,
-            "minimum":1
-         }
-      },
-      {
-         "name":"date_creation",
-         "description":"La date de création de l'objet, au format ISO 8601 AAAA-MM-DD.",
-         "example":"2020-02-27",
-         "type":"date",
-         "constraints":{
-            "required":true
-         }
-      },
-      {
-         "name":"nom",
-         "description":"Le nom de l'objet.",
-         "example":"Brouette",
+         "description":"identifiant unique défini par le Point d'Accès National",
+         "example":"75114-AC-001",
          "type":"string",
          "constraints":{
-            "required":true
+            "required":true,
+            "pattern":"^([013-9]\\d|2[AB1-9])\\d{3}-AC-\\d{3}$"
          }
       }
+     
    ],
    "primaryKey":"id"
 }
