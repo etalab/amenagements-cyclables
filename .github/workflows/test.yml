@@ -26,4 +26,3 @@ jobs:
       run: |
         tableschema validate schema.json
         goodtables validate --schema schema.json exemple-valide.csv
-        goodtables validate --schema schema.json exemple-valide.xlsx
