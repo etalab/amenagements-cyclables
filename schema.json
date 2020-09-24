@@ -83,37 +83,10 @@
          }
       },
       {
-         "name": "Xlong",
-         "description": "La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l’entrée du lieu de covoiturage exprimée dans le système de coordonnées WGS84",
-         "example": " [3.951473236083984]",
-         "type": "number",
-         "constraints": {
-            "required": true,
-            "minimum": -180,
-            "maximum": 180
-         }
-      },
-      {
-         "name": "Ylat",
-         "description": "La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l’entrée du lieu de covoiturage exprimée dans le système de coordonnées WGS84",
-         "example": " [46.720681612190916]",
-         "type": "number",
-         "constraints": {
-            "required": true,
-            "minimum": -180,
-            "maximum": 180
-         }
-      },
-      {
          "name": "geo_shape",
-         "description": "longitude et latitude du segment exprimées dans le système de coordonnées WGS84, Valeur minimale : -180, Valeur maximale : 180",
-         "example": " [[  3.951473236083984,46.720681612190916] ; [3.952159881591797,46.7316838899417]]",
-         "type": "number",
-         "constraints": {
-            "required": true,
-            "minimum": -180,
-            "maximum": 180
-         }
+         "description": "longitude et latitude du segment exprimées dans le système de coordonnées WGS84",
+         "example": "[[3.951473236083984,46.720681612190916] ; [3.952159881591797,46.7316838899417]]",
+         "type": "string"
       },
       {
          "name": "num_iti",
