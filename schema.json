@@ -1,58 +1,193 @@
 {
-   "$schema":"https://specs.frictionlessdata.io/schemas/table-schema.json",
-   "name":"aménagements cyclables",
-   "title":"Schéma d'aménagements cyclables",
-   "description":"Spécification du schéma de données d'aménagements cyclables",
-   "keywords":[
-      "transport", "mobilité", "vélo","aménagements cyclables"
+   "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name": "aménagements cyclables",
+   "title": "Schéma d'aménagements cyclables",
+   "description": "Spécification du schéma de données d'aménagements cyclables",
+   "keywords": [
+      "transport",
+      "mobilité",
+      "vélo",
+      "aménagements cyclables"
    ],
-   "countryCode":"FR",
-   "homepage":"https://github.com/etalab/schema_amenagements_cyclables",
-   "path":"https://github.com/etalab/schema_amenagements_cyclables/raw/master/schema.json",
-   "licenses":[
+   "countryCode": "FR",
+   "homepage": "https://github.com/etalab/schema_amenagements_cyclables",
+   "path": "https://github.com/etalab/schema_amenagements_cyclables/raw/master/schema.json",
+   "licenses": [
       {
-         "title":"Etalab Licence Ouverte 2.0",
-         "name":"etalab-2.0",
-         "path":"https://spdx.org/licenses/etalab-2.0.html"
+         "title": "Etalab Licence Ouverte 2.0",
+         "name": "etalab-2.0",
+         "path": "https://spdx.org/licenses/etalab-2.0.html"
       }
    ],
-   "resources":[
+   "resources": [
       {
-         "title":"Fichier valide (CSV)",
-         "name":"exemple-valide-csv",
-         "path":"https://github.com/etalab/schema_amenagements_cyclables/raw/master/exemple-valide.csv"
+         "title": "Fichier valide (CSV)",
+         "name": "exemple-valide-csv",
+         "path": "https://github.com/etalab/schema_amenagements_cyclables/raw/master/exemple-valide.csv"
       }
    ],
- 
-   "created":"2020-09-18",
-   "lastModified":"2020-09-18",
-   "version":"0.1.0",
-   "contributors":[
+   "created": "2020-09-18",
+   "lastModified": "2020-09-18",
+   "version": "0.1.0",
+   "contributors": [
       {
-         "title":"Miryad Ali",
-         "email":"miryad.ali@beta.gouv.fr",
-         "organisation":"transport.data.gouv.fr",
-         "role":"author"
+         "title": "Miryad Ali",
+         "email": "miryad.ali@beta.gouv.fr",
+         "organisation": "transport.data.gouv.fr",
+         "role": "author"
       },
       {
-         "title":"Thomas Montaigne",
-         "email":"thomas.montagne@velo-territoires.org",
-         "organisation":"Association Vélo & Territoires",
-         "role":"author"
+         "title": "Thomas Montaigne",
+         "email": "thomas.montagne@velo-territoires.org",
+         "organisation": "Association Vélo & Territoires",
+         "role": "author"
       }
    ],
-   "fields":[
+   "fields": [
       {
-         "name":"id",
-         "description":"identifiant unique défini par le Point d'Accès National",
-         "example":"75114-AC-001",
-         "type":"string",
-         "constraints":{
-            "required":true,
-            "pattern":"^([013-9]\\d|2[AB1-9])\\d{3}-AC-\\d{3}$"
+         "name": "id",
+         "description": "identifiant unique défini par le Point d'Accès National",
+         "example": "75114-AC-001",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "pattern": "^([013-9]\\d|2[AB1-9])\\d{3}-AC-\\d{3}$"
+         }
+      },
+      {
+         "name": "id_osm",
+         "description": "identifiant de l'aménagement sur OSM",
+         "example": "7746952719",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "id_local",
+         "description": "iIdentifant local de l'aménagement",
+         "example": "",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "code_com",
+         "description": "code INSEE de la commune (5 chiffres)",
+         "example": "75114",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "pattern": "^([013-9]\\d|2[AB1-9])\\d{3}"
+         }
+      },
+      {
+         "name": "Xlong",
+         "description": "La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l’entrée du lieu de covoiturage exprimée dans le système de coordonnées WGS84",
+         "example": " [3.951473236083984]",
+         "type": "number",
+         "constraints": {
+            "required": true,
+            "minimum": -180,
+            "maximum": 180
+         }
+      },
+      {
+         "name": "Ylat",
+         "description": "La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l’entrée du lieu de covoiturage exprimée dans le système de coordonnées WGS84",
+         "example": " [46.720681612190916]",
+         "type": "number",
+         "constraints": {
+            "required": true,
+            "minimum": -180,
+            "maximum": 180
+         }
+      },
+      {
+         "name": "geo_shape",
+         "description": "longitude et latitude du segment exprimées dans le système de coordonnées WGS84, Valeur minimale : -180, Valeur maximale : 180",
+         "example": " [[  3.951473236083984,46.720681612190916] ; [3.952159881591797,46.7316838899417]]",
+         "type": "number",
+         "constraints": {
+            "required": true,
+            "minimum": -180,
+            "maximum": 180
+         }
+      },
+      {
+         "name": "num_iti",
+         "description": "numéro des itinéraires, des EuroVelo au schéma départementaux, auxquels le segment appartient. Les numéros doivent être séparés par le caractère \":\"",
+         "example": "[EV1:EV6:V45]",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "reseau_loc",
+         "description": "type de réseau structurant local auquel l'aménagement appartient",
+         "example": "Structurant",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "enum": [
+               "REV",
+               "Structurant",
+               "Autre"
+            ]
+         }
+      },
+      {
+         "name": "nom_loc",
+         "description": "nom et numéro des itinéraires locaux. Les numéros doivent être séparés par le caractère \":\"",
+         "example": "",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "ame_d",
+         "description": "type d'aménagement présent sur la voie de droite",
+         "example": "Bande cyclable",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "enum": [
+               "Piste cyclable",
+               "Bande cyclable",
+               "Double sens cyclable piste",
+               "Double sens cyclable bande",
+               "Voie verte",
+               "Vélo rue",
+               "Couloir bus-vélo",
+               "Rampe",
+               "Goulotte",
+               "Aménagements mixtes piéton/vélo hors voie verte",
+               "Chaussée à voie centrale banalisée (chaucidou)",
+               "Accotement revêtu hors CVCB",
+               "Autre"
+            ]
+         }
+      },
+      {
+         "name": "regime_v_g",
+         "description": "régime présent sur la voie de droite",
+         "example": "Aire piétonne",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "enum": [
+               "Zone 30",
+               "Aire piétonne",
+               "Zone de rencontre",
+               "En agglomération",
+               "Hors agglomération",
+               "Autre"
+            ]
          }
       }
-     
    ],
-   "primaryKey":"id"
+   "primaryKey": "id"
 }
