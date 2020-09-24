@@ -145,7 +145,7 @@
          }
       },
       {
-         "name": "regime_v_g",
+         "name": "regime_v_d",
          "description": "régime présent sur la voie de droite",
          "example": "Aire piétonne",
          "type": "string",
