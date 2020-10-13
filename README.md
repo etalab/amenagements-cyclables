@@ -56,7 +56,7 @@ Comme cela est indiqué dans les métadonnées, ce fichier et ses mises-à-jour 
 
 
 Fichiers d’exemples
-Vous pouvez télécharger des fichiers gabarits d’exemple.
+Vous pouvez télécharger des fichiers gabarits d’exemple :
 Un fichier au format CSV ;
 Un fichier au format tableur.
 
