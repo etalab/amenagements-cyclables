@@ -43,6 +43,7 @@
          "role": "author"
       }
    ],
+   "primaryKey" :"id",
    "fields": [
       {
          "name": "id",
@@ -66,7 +67,7 @@
       {
          "name": "id_local",
          "description": "Identifant local de l'aménagement",
-         "example": "",
+         "example": "45E1S29",
          "type": "string",
          "constraints": {
             "required": false
@@ -91,7 +92,7 @@
       {
          "name": "num_iti",
          "description": "Numéro des itinéraires, des EuroVelo au schéma départementaux, auxquels le segment appartient. Les numéros doivent être séparés par le caractère \":\"",
-         "example": "[EV1:EV6:V45]",
+         "example": "EV1:EV6:V45",
          "type": "string",
          "constraints": {
             "required": false
@@ -177,7 +178,7 @@
       {
          "name": "largeur_d",
          "description": "Largeur hors marquage minimale utile de la voie de droite réservée au cycliste, en mètre. La largeur du marquage est exclue",
-         "example": "3",
+         "example": 3,
          "type": "number",
          "constraints": {
             "required": false
@@ -240,7 +241,7 @@
       {
          "name": "largeur_g",
          "description": "Largeur hors marquage minimale utile de la voie de gauche réservée au cycliste, en mètre. La largeur du marquage est exclue",
-         "example": "3",
+         "example": 3,
          "type": "number",
          "constraints": {
             "required": false
@@ -248,9 +249,9 @@
       },
       {
          "name": "local_ame",
-         "description": "Emplacement de l'aménagement sur la voie de gauche",
-         "example": "trottoir",
-         "type": "number",
+         "description": "Emplacement de l'aménagement",
+         "example": "Trottoir",
+         "type": "string",
          "constraints": {
             "required": false,
             "enum": [
@@ -348,6 +349,6 @@
          "constraints": {
             "required": false
          }
-      ],
-      "primaryKey": "id"
-   }
+      }
+   ]
+}
