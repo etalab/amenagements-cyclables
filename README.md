@@ -5,7 +5,7 @@ Ce schéma permet de modéliser et définir les aménagements cyclables.
 
 ## Contexte
 
-Dans le cadre des travaux de l’équipe du Point d’accès national et de la mise en oeuvre de l’ouverture des données pour améliorer l’information dont disposent les voyageurs, l’équipe de transport.data.gouv.fr, en collaboration avec l'association Vélo & Territoires, proposent une solution simple et structurée pour l’ouverture des données de parcs de stationnement en France : la Base Nationale des aménagements cyclables (BNLAC). Il s’adresse à toute nouvelle agglomération qui souhaiterait se lancer dans l’ouverture d’une base décrivant les aménagements cyclables de son ressort territorial.
+Dans le cadre des travaux de l’équipe du Point d’accès national et de la mise en oeuvre de l’ouverture des données pour améliorer l’information dont disposent les voyageurs, l’équipe de transport.data.gouv.fr, en collaboration avec l'association Vélo & Territoires, propose une solution simple et structurée pour l’ouverture des données sur les aménagements cyclables : la Base Nationale des aménagements cyclables (BNLAC). Il s’adresse à toute nouvelle agglomération qui souhaiterait se lancer dans l’ouverture d’une base décrivant les aménagements cyclables de son ressort territorial.
 
 Le schéma de la base de données a été co-construit avec l'association Vélo & Territoires, les producteurs de données et les réutilisateurs. Trois ateliers ouverts (le 27/06/2019, le 08/07/2020 et le 27/08/2020) ont permis sa production. Aujourd’hui en version 0.1.0, il sera mis-à-jour prochainement.
 
@@ -45,7 +45,7 @@ Nom du fichier : AménagementCyclable_nom_AAAAMMJJ.csv avec nom étant le nom de
 
 ## Consolidation
 
-Cette base de données est issue de l’assemblage de fichiers de données transmis par des producteurs. Nous tenons à les remercier pour leur travail de normalisation des fichiers. Le travail de consolidation est fait en continu par l’association Vélo & Territoires et l'équipe de transport.data.gouv à partir de fichiers qui sont publiés sur data.gouv avec le tag “aménagements cyclables”, des fichiers importés depuis OpenStreetMap ou qui sont transmis directement par mail.
+Cette base de données est issue de l’assemblage de fichiers de données transmis par des producteurs. Nous tenons à les remercier pour leur travail de normalisation des fichiers. Le travail de consolidation est fait en continu par l’association Vélo & Territoires à partir de fichiers qui sont publiés sur data.gouv avec le tag “aménagements cyclables”, des fichiers importés depuis OpenStreetMap ou qui sont transmis directement par mail.
 
 ## Transmission des données
 
