@@ -29,7 +29,33 @@
                         "type": "object",
                         "properties": {
                             "id_local": {
-                                "type": "string"
+                                "type": "string",
+                                "description": "Identifiant de l'aménagement sur OSM",
+                                "examples": [
+                                    "7746952719"
+                                ]
+                            },
+                            "reseau_loc": {
+                                "type": "string",
+                                "description": "Type de réseau structurant local auquel l'aménagement appartient",
+                                "examples": [
+                                    "Structurant"
+                                ],
+                                "enum": [
+                                    "REV",
+                                    "Structurant",
+                                    "Autre"
+                                ]
+                            },
+                            "nom_loc": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string",
+                                    "description": "Nom et numéro des itinéraires locaux",
+                                    "examples": [
+                                        "V1"
+                                    ]
+                                }
                             }
                         },
                         "required": [
