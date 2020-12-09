@@ -1,0 +1,59 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        102.0,
+                        0.5
+                    ],
+                    [
+                        102.0,
+                        0.5
+                    ]
+                ]
+            },
+            "properties": {
+                "id_local": "013",
+                "code_com": "75114",
+                "id_osm": "746952719",
+                "num_iti": [
+                    "0001",
+                    "0006",
+                    "0045"
+                ],
+                "reseau_loc": [
+                    "0001",
+                    "0006",
+                    "0045"
+                ],
+                "nom_loc": [
+                    "V1",
+                    "V6",
+                    "V13"
+                ],
+                "ref_geo": "Bdortho",
+                "ame_d": "PISTE CYCLABLE",
+                "regime_v_d": "AIRE PIETONNE",
+                "sens_v_d": "BIDIRECTIONNEL",
+                "largeur_d": 3,
+                "ame_g": "VOIE VERTE",
+                "regime_v_g": "ZONE 30",
+                "sens_v_g": "UNIDIRECTIONNEL",
+                "largeur_g": 4,
+                "local_ame": "TROTTOIR",
+                "statut_ame": "PROVISOIRE",
+                "access_ame": "ROLLER",
+                "trafic_vit": 80,
+                "lumiere": "VRAI",
+                "d_service": 2015,
+                "comm": "forte pente sur 10 mètres",
+                "source": "Ville de Paris",
+                "project_c": "Mercator"
+            }
+        }
+    ]
+}

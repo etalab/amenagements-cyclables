@@ -1,0 +1,43 @@
+{
+    "allOf": [
+        {
+            "$ref": "https://geojson.org/schema/FeatureCollection.json"
+        }
+    ],
+    "type": "object",
+    "required": [
+        "type",
+        "features"
+    ],
+    "properties": {
+        "type": {
+            "type": "string",
+            "enum": [
+                "FeatureCollection"
+            ]
+        },
+        "features": {
+            "type": "array",
+            "items": {
+                "title": "GeoJSON Feature",
+                "type": "object",
+                "required": [
+                    "properties"
+                ],
+                "properties": {
+                    "properties": {
+                        "type": "object",
+                        "properties": {
+                            "id_local": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "id_local"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
