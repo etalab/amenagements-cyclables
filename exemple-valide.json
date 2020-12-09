@@ -4,7 +4,17 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "LineString"
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        102.0,
+                        0.5
+                    ],
+                    [
+                        102.0,
+                        0.5
+                    ]
+                ]
             },
             "properties": {
                 "id_local": "013",
@@ -23,7 +33,7 @@
                 ],
                 "ref_geo": "Bdortho",
                 "ame_d": "PISTE CYCLABLE",
-                "regime_d": "AIRE PIETONNE",
+                "regime_v_d": "AIRE PIETONNE",
                 "sens_d": "BIDIRECTIONNEL",
                 "largeur_d": 3,
                 "ame_g": "VOIE VERTE",
@@ -34,7 +44,7 @@
                 "statut_ame": "PROVISOIRE",
                 "access_ame": "ROLLER",
                 "trafic_vit": 80,
-                "lumiere": "VRAI",
+                "lumiere": true,
                 "d_service": 2015,
                 "comm": "forte pente sur 10 mètres",
                 "source": "Ville de Paris",
