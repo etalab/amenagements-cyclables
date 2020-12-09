@@ -56,10 +56,19 @@
                                         "V1"
                                     ]
                                 }
+                            },
+                            "code_com": {
+                                "type": "string",
+                                "description": "Code INSEE de la commune (5 caractères alphanumériques)",
+                                "examples": [
+                                    "75114"
+                                ],
+                                "pattern": "^([013-9]\\d|2[AB1-9])\\d{3}"
                             }
                         },
                         "required": [
-                            "id_local"
+                            "id_local",
+                            "code_com"
                         ]
                     }
                 }
