@@ -4,17 +4,7 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        102.0,
-                        0.5
-                    ],
-                    [
-                        102.0,
-                        0.5
-                    ]
-                ]
+                "type": "LineString"
             },
             "properties": {
                 "id_local": "013",
