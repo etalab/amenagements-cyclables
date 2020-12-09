@@ -8,6 +8,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    # AJV does not consider the geojson external schema, but the errors are more detailed
+    # so I put both validator,
+    - name: Validate JSON with AVJ.
+      uses: docker://orrosenblatt/validate-json-action:latest
+      env:
+        INPUT_SCHEMA: schema_amenagements_cyclables.json
+        INPUT_JSONS: exemple-valide.json
+
+    # Install a python cli checker, `jsonschema` that have poor errors but can check that the example is a valid geojson
+    # (unlike ajv it resolves the external geojson schema)
     - name: Installation Python 3.7
       uses: actions/setup-python@v1
       with:
@@ -21,8 +31,7 @@ jobs:
           ${{ runner.os }}-pip-
           ${{ runner.os }}-
     - name: Installation des dépendances
-      run: pip install -r requirements.txt
+      run: pip install jsonschema
     - name: Vérification du schéma et des fichiers d'exemples
       run: |
-        tableschema validate schema.json
-        goodtables validate --schema schema.json exemple-valide.csv
+        jsonschema --instance exemple-valide.json schema_amenagements_cyclables.json
