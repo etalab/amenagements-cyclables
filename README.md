@@ -78,8 +78,7 @@ Comme indiqué dans les métadonnées, le fichier et ses mises-à-jour sont dist
 ### Fichiers d’exemples
 
 Vous pouvez télécharger des fichiers gabarits d’exemple ci-dessous.
-Un fichier au format CSV ;
-Un fichier au format tableur.
+Un fichier au format JSON. 
 
 
 
