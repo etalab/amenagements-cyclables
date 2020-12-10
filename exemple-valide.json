@@ -21,9 +21,9 @@
                 "code_com": "36054",
                 "id_osm": "746952719",
                 "num_iti": [
-                    "0001",
-                    "0006",
-                    "0045"
+                    "0001:",
+                    "0006:",
+                    "0045:"
                 ],
                 "reseau_loc": "Structurant",
                 "nom_loc": [
@@ -33,7 +33,7 @@
                 ],
                 "ref_geo": "Bdortho",
                 "ame_d": "PISTE CYCLABLE",
-                "regime_v_d": "AIRE PIETONNE",
+                "regime_d": "AIRE PIETONNE",
                 "sens_d": "BIDIRECTIONNEL",
                 "largeur_d": 3,
                 "ame_g": "VOIE VERTE",
@@ -43,6 +43,7 @@
                 "local_ame": "TROTTOIR",
                 "statut_ame": "PROVISOIRE",
                 "access_ame": "ROLLER",
+                "date_maj" : "2020-08-15",
                 "trafic_vit": 80,
                 "lumiere": true,
                 "d_service": 2015,
