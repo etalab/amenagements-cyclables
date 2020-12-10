@@ -1,8 +1,0 @@
-title: "Schéma d'aménagements cyclables"
-description : "Spécification du schéma de données d'aménagements cyclables"
-homepage: "https://github.com/etalab/schema_amenagements_cyclables"
-
-schemas:
-  -
-    path: "schema_amenagements_cyclables.json"
-    title: "Schema des aménagements cyclables"

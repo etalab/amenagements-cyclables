@@ -64,11 +64,11 @@
                             },
                             "num_iti": {
                                 "type": "array",
-                                "description": "Numéro des itinéraires, des EuroVelo au schéma départementaux, auxquels le segment appartient",
+                                "description": "Numéro des itinéraires, des EuroVelo au schéma départementaux, auxquels le segment appartient. Séparé par « : »",
                                 "examples": [
-                                    "0001",
-                                    "0006",
-                                    "0045"
+                                    "0001:",
+                                    "0006:",
+                                    "0045:"
                                 ]
                             },
                             "ame_d": {
@@ -84,12 +84,13 @@
                                     "DOUBLE SENS CYCLABLE BANDE",
                                     "VOIE VERTE",
                                     "VELO RUE",
-                                    "COULOIR BUS VELO",
+                                    "COULOIR BUS+VELO",
                                     "RAMPE",
                                     "GOULOTTE",
                                     "AMENAGEMENT MIXTES PIETON VELO HORS VOIE VERTE",
                                     "CHAUSSEE A VOIE CENTRALE BANALISEE",
                                     "ACCOTEMENT REVENTU HORS CVCB",
+                                    "AUCUN",
                                     "AUTRE"
                                 ]
                             },
@@ -128,7 +129,7 @@
                             },
                             "ame_g": {
                                 "type": "string",
-                                "description": "Type d'aménagement présent sur la voie de droite",
+                                "description": "Type d'aménagement présent sur la voie de gauche",
                                 "examples": [
                                     "BANDE CYCLABLE"
                                 ],
@@ -139,18 +140,19 @@
                                     "DOUBLE SENS CYCLABLE BANDE",
                                     "VOIE VERTE",
                                     "VELO RUE",
-                                    "COULOIR BUS VELO",
+                                    "COULOIR BUS+VELO",
                                     "RAMPE",
                                     "GOULOTTE",
                                     "AMENAGEMENT MIXTES PIETON VELO HORS VOIE VERTE",
                                     "CHAUSSEE A VOIE CENTRALE BANALISEE",
                                     "ACCOTEMENT REVENTU HORS CVCB",
+                                    "AUCUN",
                                     "AUTRE"
                                 ]
                             },
                             "regime_g": {
                                 "type": "string",
-                                "description": "Régime présent sur la voie de droite",
+                                "description": "Régime présent sur la voie de gauche",
                                 "examples": [
                                     "AIRE PIETONNE"
                                 ],
@@ -165,7 +167,7 @@
                             },
                             "sens_g": {
                                 "type": "string",
-                                "description": "Sens de circulation pour les cyclistes sur la voie de droite",
+                                "description": "Sens de circulation pour les cyclistes sur la voie de gauche",
                                 "examples": [
                                     "UNIDIRECTIONNEL"
                                 ],
@@ -176,7 +178,7 @@
                             },
                             "largeur_g": {
                                 "type": "number",
-                                "description": "Largeur hors marquage minimale utile de la voie de droite réservée au cycliste, en mètre. La largeur du marquage est exclue",
+                                "description": "Largeur hors marquage minimale utile de la voie de gauche réservée au cycliste, en mètre. La largeur du marquage est exclue",
                                 "examples": [
                                     4.1
                                 ]
