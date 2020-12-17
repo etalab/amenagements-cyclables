@@ -128,6 +128,17 @@
                                     3
                                 ]
                             },
+                             "local_d": {
+                                "type": "string",
+                                "description": "Emplacement de l'aménagement sur la voie de droite",
+                                "examples": [
+                                    "TROTTOIR"
+                                ],
+                                "enum": [
+                                    "TROTTOIR",
+                                    "CHAUSSEE"
+                                ]
+                                 },
                             "ame_g": {
                                 "type": "string",
                                 "description": "Type d'aménagement présent sur la voie de gauche",
@@ -185,9 +196,9 @@
                                     4.1
                                 ]
                             },
-                            "local_ame": {
+                            "local_g": {
                                 "type": "string",
-                                "description": "Emplacement de l'aménagement",
+                                "description": "Emplacement de l'aménagement sur la voie de gauche",
                                 "examples": [
                                     "TROTTOIR"
                                 ],
