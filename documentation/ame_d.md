@@ -49,7 +49,7 @@ Elle permet également aux cyclistes de circuler en sécurité.
 {% hint style="success" %}
 **Aménagement conforme**
 
-\*\*\*\*![](assets/image%20%2818%29.png)\*\*\*\*
+\*\*\*\*![](assets/image%20%2818%29.png){:height="36px" width="36px"}\*\*\*\*
 {% endhint %}
 
 ### Aménagements mixtes piéton/vélo hors voie verte 
@@ -71,7 +71,8 @@ Une bande cyclable désigne une voie exclusivement réservée aux cycles à deux
 {% hint style="success" %}
 **Aménagement conforme** 
 
-![](assets/image%20%2858%29.png) ![](assets/image%20%2831%29.png) 
+![](assets/image%20%2858%29.png){:height="36px" width="36px"} 
+![](assets/image%20%2831%29.png){:height="36px" width="36px"} 
 {% endhint %}
 
 {% hint style="info" %}
@@ -81,11 +82,11 @@ Une bande cyclable désigne une voie exclusivement réservée aux cycles à deux
 
 Panneau C113 \(usage conseillé\)          -           
 
-      ![](assets/image%20%2835%29.png)         
+      ![](assets/image%20%2835%29.png){:height="36px" width="36px"}         
 
  Panneau B22a \(usage obligatoire\)
 
-![](assets/image-19-2-.png) 
+![](assets/image-19-2-.png){:height="36px" width="36px"} 
 
                                   
 
@@ -95,13 +96,13 @@ Panneau C113 \(usage conseillé\)          -
 
  ****Panneau C114 \(usage conseillé\)           -    
 
-      ![](assets/image-18-3-.png)   
+      ![](assets/image-18-3-.png){:height="36px" width="36px"}   
 
 
 
 Panneau B40 \(usage obligatoire\)
 
-![](assets/image-20-2-.png) 
+![](assets/image-20-2-.png){:height="36px" width="36px"} 
 {% endhint %}
 
 ### Chaussée à voie centrale banalisée
@@ -111,13 +112,13 @@ La chaussée à voie centrale banalisée, ou « C.V.C.B. », est un aménagement
 {% hint style="success" %}
 **Aménagement conforme**
 
-\*\*\*\*![](assets/image%20%2850%29.png) 
+\*\*\*\*![](assets/image%20%2850%29.png){:height="36px" width="36px"} 
 {% endhint %}
 
 {% hint style="danger" %}
 **Aménagement non conforme**
 
-![](assets/image%20%2860%29.png)  
+![](assets/image%20%2860%29.png){:height="36px" width="36px"}  
 
 Une chaussée à voie centrale banalisée est équipée d’accotements. À ce titre, les figurines vélo ne doivent pas y être tracées
 {% endhint %}
@@ -127,7 +128,7 @@ Une chaussée à voie centrale banalisée est équipée d’accotements. À ce t
 
 Il n’y a pas, à l’heure actuelle, de panneau officiel indiquant l’entrée d’une chaussée à voie centrale banalisée, cependant on constate l’émergence de certains signaux à l’initiative des gestionnaires locaux
 
-![](assets/image%20%2865%29.png)
+![](assets/image%20%2865%29.png){:height="36px" width="36px"}
 {% endhint %}
 
 ### Couloir ouvert bus/vélo
@@ -139,7 +140,7 @@ Le couloir bus « ouvert » a une largeur  de 3,00m à 3,50m.
 {% hint style="success" %}
 **Aménagement conforme** 
 
-![](assets/image-4-1-1-.png) 
+![](assets/image-4-1-1-.png){:height="36px" width="36px"} 
 {% endhint %}
 
 {% hint style="info" %}
@@ -147,11 +148,11 @@ Le couloir bus « ouvert » a une largeur  de 3,00m à 3,50m.
 
 **Au sol**  : Marquage discontinu T3 5u, alternance marquage « bus » + flèche + logo vélo
 
-![](assets/image%20%287%29.png)
+![](assets/image%20%287%29.png){:height="36px" width="36px"}
 
 **Panneau** : Panonceau vélo apposé sous un panneau B27
 
-  ![](assets/image%20%282%29.png)
+  ![](assets/image%20%282%29.png){:height="36px" width="36px"}
 {% endhint %}
 
 ### Double sens cyclable 
@@ -163,13 +164,13 @@ La signalisation par marquage des double-sens cyclables se fait à l’aide de l
 {% hint style="success" %}
 **Aménagements conformes**
 
-![](assets/image%20%2853%29.png) ![](assets/image%20%2852%29.png) 
+![](assets/image%20%2853%29.png){:height="36px" width="36px"} ![](assets/image%20%2852%29.png){:height="36px" width="36px"} 
 {% endhint %}
 
 {% hint style="danger" %}
 **Aménagement non conforme**
 
-![](assets/image%20%283%29.png) 
+![](assets/image%20%283%29.png){:height="36px" width="36px"} 
 
 Aménagement confus : une bande cyclable est indiquée comme obligatoire. Deux panneaux C 24a la signalent comme bidirectionnelle alors qu’un panneau C 12 précise que la rue est à sens unique. La largeur de la bande est manifestement incompatible avec le croisement de cyclistes. Enfin, le débouché de la voie réservée est obstrué par un îlot qui contraint les cyclistes à se déporter face aux véhicules motorisés à l’approche.
 {% endhint %}
@@ -179,11 +180,11 @@ Aménagement confus : une bande cyclable est indiquée comme obligatoire. Deux p
 
 **Au sol :** Ligne continue 3u sur 10m**,** flèche associée pictogramme vélo
 
-![](assets/image%20%2845%29.png)
+![](assets/image%20%2845%29.png){:height="36px" width="36px"}
 
 **Panneau**  : Panneau C24a
 
- ![](assets/image%20%281%29.png) 
+ ![](assets/image%20%281%29.png){:height="36px" width="36px"} 
 {% endhint %}
 
 ### Goulotte
@@ -193,7 +194,7 @@ Aménagement qui facilite la montée et la descente d’un escalier avec un vél
 {% hint style="success" %}
 **Aménagement conforme**
 
-![](assets/image-5-.png) 
+![](assets/image-5-.png){:height="36px" width="36px"} 
 {% endhint %}
 
 ### Piste cyclable
@@ -207,13 +208,13 @@ Les largeurs recommandées d’une piste cyclable sont de 2 m pour une piste uni
 {% hint style="success" %}
   **Aménagement conforme** 
 
- ![](assets/image%20%2854%29.png) 
+ ![](assets/image%20%2854%29.png){:height="36px" width="36px"} 
 {% endhint %}
 
 {% hint style="danger" %}
 **Aménagement non conforme** 
 
- ![](assets/piste_cyclable_ko.png) 
+ ![](assets/piste_cyclable_ko.png){:height="36px" width="36px"} 
 {% endhint %}
 
 {% hint style="info" %}
@@ -223,13 +224,13 @@ Les largeurs recommandées d’une piste cyclable sont de 2 m pour une piste uni
 
 Panneau C113 \(usage conseillé\)          -           
 
-      ![](assets/image%20%2835%29.png)    
+      ![](assets/image%20%2835%29.png){:height="36px" width="36px"}    
 
     
 
 Panneau B22a \(usage obligatoire\)
 
-![](assets/image-19-2-.png)
+![](assets/image-19-2-.png){:height="36px" width="36px"}
 
     
 
@@ -237,13 +238,13 @@ Panneau B22a \(usage obligatoire\)
 
  ****Panneau C114 \(usage conseillé\)           -    
 
-      ![](assets/image-18-3-.png)   
+      ![](assets/image-18-3-.png){:height="36px" width="36px"}   
 
 
 
 Panneau B40 \(usage obligatoire\)
 
-![](assets/image-20-2-.png)
+![](assets/image-20-2-.png){:height="36px" width="36px"}
 {% endhint %}
 
 
@@ -255,7 +256,7 @@ La vélorue n’a, à l’heure de l’écriture de ce document, pas de cadre r�
 {% hint style="success" %}
 **Aménagement suggéré**
 
-![](assets/image%20%2836%29.png) 
+![](assets/image%20%2836%29.png){:height="36px" width="36px"} 
 {% endhint %}
 
 {% hint style="info" %}
@@ -263,7 +264,7 @@ La vélorue n’a, à l’heure de l’écriture de ce document, pas de cadre r�
 
 La vélorue n’étant pas encore réglementée , aucune signalisation particulière n’y est associée. On constate cependant que les collectivités qui utilisent la vélorue ont recours au marquage au sol de trajectoires matérialisées pour cycles. Elles l’accompagnent d’un panneau représentant un cycliste devant une automobile, modèle semblable à celui déjà utilisé en Belgique. 
 
-![](assets/image-7-2-.png)
+![](assets/image-7-2-.png){:height="36px" width="36px"}
 {% endhint %}
 
 ### Voie verte
@@ -273,13 +274,13 @@ Une voie verte désigne une route exclusivement réservée à la circulation d'u
 {% hint style="success" %}
 **Aménagement conforme** 
 
-\*\*\*\*![](assets/telechargement-3-1-.png)
+\*\*\*\*![](assets/telechargement-3-1-.png){:height="36px" width="36px"}
 {% endhint %}
 
 {% hint style="danger" %}
 **Aménagement non conforme**
 
-![](assets/telechargement-2-.png)
+![](assets/telechargement-2-.png){:height="36px" width="36px"}
 
 Malgré la tentation de mélanger vélos et piétons sur un trottoir, ce dernier ne peut pas être qualifié comme une voie verte. En effet, une voie verte est un axe en site propre.
 {% endhint %}
@@ -289,11 +290,11 @@ Malgré la tentation de mélanger vélos et piétons sur un trottoir, ce dernier
 
 **A l'entrée :** Panneau C115 
 
-![](assets/image-8-2-.png) 
+![](assets/image-8-2-.png){:height="36px" width="36px"} 
 
 **En sortie :** Panneau C116 
 
-![](assets/image-9-2-.png) 
+![](assets/image-9-2-.png){:height="36px" width="36px"} 
 {% endhint %}
 
 ## Régimes de priorités
@@ -307,7 +308,7 @@ Une aire piétonne désigne une section ou un ensemble de sections de voies en a
 {% hint style="success" %}
 **Aménagement conforme**
 
-![](assets/image-13-.png) 
+![](assets/image-13-.png){:height="36px" width="36px"} 
 {% endhint %}
 
 {% hint style="info" %}
@@ -315,11 +316,11 @@ Une aire piétonne désigne une section ou un ensemble de sections de voies en a
 
 **A l'entrée  :** Panneau B54
 
-![](assets/image%20%2846%29.png) 
+![](assets/image%20%2846%29.png){:height="36px" width="36px"} 
 
 **En sortie :** Panneau Panneau B55 
 
-![](assets/image%20%2837%29.png)
+![](assets/image%20%2837%29.png){:height="36px" width="36px"}
 {% endhint %}
 
 ### Zone de rencontre 
@@ -331,11 +332,11 @@ Une zone de rencontre désigne une section ou un ensemble de sections de voies e
 
 **A l'entrée** : Panneau B52 :
 
-![](assets/image%20%2870%29.png) 
+![](assets/image%20%2870%29.png){:height="36px" width="36px"} 
 
 **En sortie :** Panneau B53 
 
-![](assets/image%20%2851%29.png) 
+![](assets/image%20%2851%29.png){:height="36px" width="36px"} 
 {% endhint %}
 
 ### Zone 30
@@ -347,11 +348,11 @@ Une zone 30 désigne une section ou un ensemble de sections de voies constituant
 
 **A l'entrée :** Panneau B30 :
 
- ![](assets/image%20%285%29.png)
+ ![](assets/image%20%285%29.png){:height="36px" width="36px"}
 
 **En sortie :** Panneau B51 
 
- ![](assets/image%20%2862%29.png)
+ ![](assets/image%20%2862%29.png){:height="36px" width="36px"}
 {% endhint %}
 
 
