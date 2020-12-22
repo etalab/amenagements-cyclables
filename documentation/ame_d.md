@@ -213,6 +213,7 @@ Les largeurs recommandées d’une piste cyclable sont de 2 m pour une piste uni
 {% hint style="danger" %}
 **Aménagement non conforme** 
 
+ ![](assets/piste_cyclable_ko.png) 
 {% endhint %}
 
 {% hint style="info" %}
