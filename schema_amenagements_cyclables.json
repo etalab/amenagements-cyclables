@@ -130,12 +130,13 @@
                             },
                              "local_d": {
                                 "type": "string",
-                                "description": "Emplacement de l'aménagement sur la voie de droite",
+                                "description": "Niveau de l'aménagement sur la voie de droite",
                                 "examples": [
                                     "TROTTOIR"
                                 ],
                                 "enum": [
                                     "TROTTOIR",
+                                    "INTERMEDIAIRE",
                                     "CHAUSSEE"
                                 ]
                                  },
@@ -198,12 +199,13 @@
                             },
                             "local_g": {
                                 "type": "string",
-                                "description": "Emplacement de l'aménagement sur la voie de gauche",
+                                "description": "Niveau de l'aménagement sur la voie de gauche",
                                 "examples": [
                                     "TROTTOIR"
                                 ],
                                 "enum": [
                                     "TROTTOIR",
+                                    "INTERMEDIAIRE",
                                     "CHAUSSEE"
                                 ]
                             },
