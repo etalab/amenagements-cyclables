@@ -7,41 +7,40 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        1.075286865234375,
-                        46.8559652134879
+                        2.304044,
+                        48.849600
                       ],
                       [
-                        1.1281585693359375,
-                        46.92306917905251
+                        2.305224,
+                        48.850409
                       ]
                 ]
             },
             "properties": {
                 "id_local": "013",
-                "code_com": "36054",
                 "id_osm": "746952719",
                 "num_iti": [
-                    "0001:",
-                    "0006:",
-                    "0045:"
+                    "0001:0006:0045"
                 ],
                 "reseau_loc": "Structurant",
                 "nom_loc": [
-                    "V1",
-                    "V6",
-                    "V13"
+                    "V1:V6:V13"
                 ],
                 "ref_geo": "Bdortho",
+                "code_com_d": "75107",
                 "ame_d": "PISTE CYCLABLE",
                 "regime_d": "AIRE PIETONNE",
                 "sens_d": "BIDIRECTIONNEL",
                 "largeur_d": 3,
+                "local_d": "TROTTOIR",
+                "statut_d": "EN TRAVAUX",
+                "code_com_g": "75017",
                 "ame_g": "VOIE VERTE",
                 "regime_g": "ZONE 30",
                 "sens_g": "UNIDIRECTIONNEL",
                 "largeur_g": 4,
-                "local_ame": "TROTTOIR",
-                "statut_ame": "PROVISOIRE",
+                "local_g": "INTERMEDIAIRE",
+                "statut_g": "PROVISOIRE",
                 "access_ame": "ROLLER",
                 "date_maj" : "2020-08-15",
                 "trafic_vit": 80,
