@@ -57,9 +57,7 @@
                             "num_iti": {
                                 "type": "string",
                                 "description": "Numéro des itinéraires, des EuroVelo au schéma départementaux, auxquels le segment appartient. Séparé par « : »",
-                                "examples": [
-                                    "0001:0006:0045:"
-                                ]
+                                "examples": "0001:0006:0045:"
                             },
                             "code_com_d": {
                                 "type": "string",
