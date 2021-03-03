@@ -19,9 +19,7 @@
             "properties": {
                 "id_local": "013",
                 "id_osm": "746952719",
-                "num_iti": [
-                    "0001:0006:0045"
-                ],
+                "num_iti": "0001:0006:0045",
                 "reseau_loc": "Structurant",
                 "nom_loc": [
                     "V1:V6:V13"
