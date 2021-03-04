@@ -39,7 +39,7 @@ Les jeux de données seront publiées au format GeoJSON. Certains champs sont ob
 
 Les producteurs pourront saisir leurs données sur : 
 - des outils internes ;
-- OpenStreetMpa (OSM); 
+- OpenStreetMap (OSM); 
 - les outils développés par Vélo & Territoires à savoir 
 un WebSIG 
 Un gabarit au format shapefile pour QGIS
