@@ -30,7 +30,6 @@ Ce dataset comprend notamment :
 - la vitesse de circulation des véhicules motorisés dans le trafic adjacent.
 
 
-
 Attention : ce dataset ne concerne pas le stationnement vélo. 
 
 ## Format de fichier
@@ -40,10 +39,14 @@ Les jeux de données seront publiées au format GeoJSON. Certains champs sont ob
 Les producteurs pourront saisir leurs données sur : 
 - des outils internes ;
 - OpenStreetMap (OSM); 
-- les outils développés par Vélo & Territoires à savoir 
-un WebSIG 
-Un gabarit au format shapefile pour QGIS
-Un script SQL pour la création d’une base de données Postgres/PostGIS « vierge ».
+- les outils développés par Vélo & Territoires à savoir, 
+- un [WebSIG](https://on3v.veremes.net/vmap/?mode_id=vmap&map_id=31&token=publictoken#) ;
+- Un [gabarit au format shapefile](https://github.com/etalab/schema-amenagements-cyclables/blob/master/tools/AC_TEMPLATE_SHP_QGIS_v0.3.0.zip) pour QGIS ;
+- Un [script SQL pour la création d’une base de données Postgres/PostGIS](https://github.com/etalab/schema-amenagements-cyclables/blob/master/tools/AC_SQL_POSTGIS_v0.3.0.zip) « vierge ».
+
+Ces outils sont hébérgés dans le dossier [tools](https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools) de ce repo. Pour une demande d'accès au WebSIG ou toute autre question sur ces outils, vous pouvez contacter Fabien Commeaux de Vélo & Territoires à cette adresse : fabien.commeaux@velo-territoires.org
+
+## Publication
 
 Dans le but de maintenir à jour un répertoire consolidé des aménagements cyclables en France, les collectivités sont invitées à transmettre systématiquement les données relatives à leurs aménagements. 
 Elles peuvent ajouter le mot-clef "aménagement cyclable" lors de la publication du jeu de données dans leur espace de publication ou directement sur data.gouv.fr.
