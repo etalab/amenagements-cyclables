@@ -150,6 +150,18 @@
                                     "PROVISOIRE"
                                 ]
                              },
+                            "revetement_d": {
+                                "type": "string",
+                                "description": "Revêtement de l'aménagement sur la voie de droite",
+                                "examples": [
+                                    "LISSE"
+                                ],
+                                "enum": [
+                                    "LISSE",
+                                    "RUGUEUX",
+                                    "MEUBLE"
+                                ]
+                             },
                                 "code_com_g": {
                                 "type": "string",
                                 "description": "Code INSEE de la commune (5 caractères alphanumériques) sur la voie de gauche",
@@ -239,6 +251,18 @@
                                     "PROVISOIRE"
                                 ]
                             },
+                            "revetement_g": {
+                                "type": "string",
+                                "description": "Revêtement de l'aménagement sur la voie de gauche",
+                                "examples": [
+                                    "LISSE"
+                                ],
+                                "enum": [
+                                    "LISSE",
+                                    "RUGUEUX",
+                                    "MEUBLE"
+                                ]
+                             },
                             "access_ame": {
                                 "type": "string",
                                 "description": "Accessibilité des amanégements par type de véhicule à deux roues non motorisé",
