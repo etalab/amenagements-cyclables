@@ -22,7 +22,7 @@
                                 "type": "string",
                                 "description": "Identifiant unique pérenne défini par la collectivité",
                                 "examples": [
-                                    "751AC"
+                                    "751AC001"
                                 ]
                             },
                             "reseau_loc": {
