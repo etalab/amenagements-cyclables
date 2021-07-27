@@ -296,7 +296,7 @@
                             },
                             "project_c": {
                                 "type": "string",
-                                "description": "Projection cartographique utilisée",
+                                "description": "Projection cartographique de la donnée source",
                                 "examples": [
                                     "Peters"
                                 ]
