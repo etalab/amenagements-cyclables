@@ -247,9 +247,9 @@
                                 ],
                                 "enum": [
                                     "ROLLER",
-                                    "VTT",
+                                    "VELO DE ROUTE",
                                     "VTC",
-                                    "VELO DE ROUTE"
+                                    "VTT"                                        
                                 ]
                             },
                             "date_maj": {
