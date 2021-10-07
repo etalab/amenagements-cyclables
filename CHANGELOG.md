@@ -16,7 +16,7 @@ Correction des valeurs du champ "num_iti" et du fichier d'exemple pour ce champ
 
 ## Version 0.2.2 - 2021-01-27
 
-Changement de propriété du champ "trafic_vit" : trafic_vit" qui était obligatoire devient un champ optionnel
+Changement de propriété du champ "trafic_vit" : trafic_vit" qui était obligatoire devient un champ optionnel.
 Ce changement permettra de laisser le champ le vide quand il n'y a pas de trafic adjacent à l'aménagement
 
 ## Version 0.2.1 - 2020-12-17
