@@ -4,7 +4,7 @@ Ce fichier répertorie les changements entre différentes versions d'un schéma
 
 ## Version 0.3.2 - 2021-10-04
 
-Ajout des champs optionnels "revetement_d" et "revetement_g" après le vote en faveur de la [PR #33](https://github.com/etalab/schema-amenagements-cyclables/pull/33)
+Ajout des champs optionnels "revete_d" et "revet_g" après le vote en faveur de la [PR #33](https://github.com/etalab/schema-amenagements-cyclables/pull/33)
 
 ## Version 0.3.1 - 2021-09-15
 
