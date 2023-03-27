@@ -277,7 +277,8 @@
                                 ]
                             },
                             "date_maj": {
-                                "type": "string",
+                                "type": "date",
+                                "format": "%Y-%m-%d",
                                 "description": "Date de dernière mise à jour des données du segment  Notation ISO 8601, format AAAA-MM-JJ",
                                 "examples": [
                                     "2020-08-15"

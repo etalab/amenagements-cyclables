@@ -2,6 +2,10 @@
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma
 
+## Version 0.3.3 - 2023-03-27
+
+Correction du type du champ "date_maj" et ajout d'une vérification pour ce champ 
+
 ## Version 0.3.2 - 2021-10-04
 
 Ajout des champs optionnels "revet_d" et "revet_g" après le vote en faveur de la [PR #33](https://github.com/etalab/schema-amenagements-cyclables/pull/33)
