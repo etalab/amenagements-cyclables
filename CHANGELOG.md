@@ -2,9 +2,13 @@
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma
 
-## Version 0.3.3 - 2023-03-27
+## Version 0.3.4 - 2023-03-28
 
 Correction du type du champ "date_maj" et ajout d'une vérification pour ce champ 
+
+## Version 0.3.3 - 2021-10-28
+
+Modification du nom des champs "revetement_d" et "revetement_g" en "revet_d" et "revet_g" 
 
 ## Version 0.3.2 - 2021-10-04
 
