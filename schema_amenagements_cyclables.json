@@ -1,7 +1,68 @@
 {
     "allOf": [
         {
-            "$ref": "https://geojson.org/schema/FeatureCollection.json"
+            "$ref": "https://geojson.org/schema/FeatureCollection.json",
+            "name": "schema-amenagements-cyclables",
+            "title": "Aménagement cyclable",
+            "description": "Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques des aménagements cyclables",
+            "countryCode": "FR",
+            "homepage": "https://github.com/etalab/amenagements-cyclables",
+            "path": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.4/schema_amenagements_cyclables.json",
+            "resources": [
+                {
+                    "title": "Exemple de fichier Aménagement cyclable",
+                    "path": "https://github.com/etalab/amenagements-cyclables/raw/v0.3.4/exemple-valide.json"
+                },
+                {
+                    "title": "Template SHP",
+                    "path": "https://github.com/etalab/amenagements-cyclables/blob/master/tools/AC_TEMPLATE_SHP_QGIS.zip"
+                },
+                {
+                    "title": "Template SQL",
+                    "path": "https://github.com/etalab/amenagements-cyclables/blob/master/tools/AC_SQL_POSTGIS.zip"
+                }
+            ],
+            "created": "2020-12-10",
+            "lastModified": "2023-03-28",
+            "version": "0.3.4",
+            "contributors": [
+                {
+                    "title": "Miryad Ali",
+                    "email": "contact@transport.beta.gouv.fr",
+                    "organisation": "Transport.data.gouv.fr",
+                    "role": "author"
+                },
+                {
+                    "title": "Fabien Commeaux",
+                    "email": "fabien.commeaux@velo-territoires.org",
+                    "organisation": "Vélo & territoires",
+                    "role": "author"
+                },
+                {
+                    "title": "Thomas Montagne",
+                    "email": "thomas.montagne@velo-territoires.org",
+                    "organisation": "Vélo & territoires",
+                    "role": "author"
+                },
+                {
+                    "title": "Simon Réau",
+                    "email": "simon.reau@geovelo.fr ",
+                    "organisation": "Géovélo",
+                    "role": "contributor"
+                },
+                {
+                    "title": "Antoine Desbordes",
+                    "email": "contact@transport.beta.gouv.fr",
+                    "organisation": "Transport.data.gouv.fr",
+                    "role": "contributor"
+                },
+                {
+                    "title": "Antoine Augusti",
+                    "email": "contact@transport.beta.gouv.fr",
+                    "organisation": "Transport.data.gouv.fr",
+                    "role": "contributor"
+                }
+            ]
         }
     ],
     "type": "object",
@@ -51,7 +112,7 @@
                                 "type": "string",
                                 "description": "Identifiant de l'aménagement sur OSM",
                                 "examples": [
-                                    "7746952719" 
+                                    "7746952719"
                                 ]
                             },
                             "num_iti": {
@@ -126,7 +187,7 @@
                                     3
                                 ]
                             },
-                             "local_d": {
+                            "local_d": {
                                 "type": "string",
                                 "description": "Emplacement de l'aménagement sur la voie de droite",
                                 "examples": [
@@ -137,7 +198,7 @@
                                     "INTERMEDIAIRE",
                                     "CHAUSSEE"
                                 ]
-                                 },
+                            },
                             "statut_d": {
                                 "type": "string",
                                 "description": "Niveau de réalisation de l'infrastructure sur la voie de droite",
@@ -149,7 +210,7 @@
                                     "EN SERVICE",
                                     "PROVISOIRE"
                                 ]
-                             },
+                            },
                             "revet_d": {
                                 "type": "string",
                                 "description": "Type de revêtement de l'aménagement sur la voie de droite",
@@ -159,10 +220,10 @@
                                 "enum": [
                                     "LISSE",
                                     "RUGUEUX",
-                                    "MEUBLE"                                       
+                                    "MEUBLE"
                                 ]
                             },
-                                "code_com_g": {
+                            "code_com_g": {
                                 "type": "string",
                                 "description": "Code INSEE de la commune (5 caractères alphanumériques) sur la voie de gauche",
                                 "examples": [
@@ -251,7 +312,7 @@
                                     "PROVISOIRE"
                                 ]
                             },
-                             "revet_g": {
+                            "revet_g": {
                                 "type": "string",
                                 "description": "Type de revêtement de l'aménagement sur la voie de gauche",
                                 "examples": [
@@ -260,7 +321,7 @@
                                 "enum": [
                                     "LISSE",
                                     "RUGUEUX",
-                                    "MEUBLE"                                       
+                                    "MEUBLE"
                                 ]
                             },
                             "access_ame": {
@@ -273,7 +334,7 @@
                                     "ROLLER",
                                     "VELO DE ROUTE",
                                     "VTC",
-                                    "VTT"                                        
+                                    "VTT"
                                 ]
                             },
                             "date_maj": {
