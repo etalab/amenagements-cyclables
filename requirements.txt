@@ -1,2 +1,1 @@
-tableschema==1.18.0
-goodtables==2.4.16
+jsonschema==4.17.3

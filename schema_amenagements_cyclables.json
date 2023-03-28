@@ -326,7 +326,7 @@
                             },
                             "access_ame": {
                                 "type": "string",
-                                "description": "Accessibilité des amanégements par type de véhicule à deux roues non motorisé",
+                                "description": "Accessibilité des aménagements par type de véhicule à deux roues non motorisé",
                                 "examples": [
                                     "VTT"
                                 ],
@@ -340,7 +340,7 @@
                             "date_maj": {
                                 "type": "string",
                                 "format": "date",
-                                "description": "Date de dernière mise à jour des données du segment  Notation ISO 8601, format AAAA-MM-JJ",
+                                "description": "Date de dernière mise à jour des données du segment. Notation ISO 8601, format AAAA-MM-JJ",
                                 "examples": [
                                     "2020-08-15"
                                 ]
@@ -363,7 +363,7 @@
                                 "type": "number",
                                 "description": "Date de mise en oeuvre de l'aménagement (AAAA)",
                                 "examples": [
-                                    "2015"
+                                    2015
                                 ]
                             },
                             "comm": {
@@ -389,7 +389,7 @@
                             },
                             "ref_geo": {
                                 "type": "string",
-                                "description": "référentiel géographique utilisé ",
+                                "description": "Référentiel géographique utilisé ",
                                 "examples": [
                                     "Bdortho"
                                 ]
