@@ -34,7 +34,7 @@ Attention : ce dataset ne concerne pas le stationnement cyclable. Vous trouverez
 
 ## Format de fichier
 
-Les jeux de données seront publiés au format GeoJSON. Certains champs sont obligatoires et d'autres optionnels. Les champs obligatoires doivent être complétés. Les champs optionnels peuvent être vides si la donnée n’est pas disponible. La colonne doit toutefois être présente.
+Les jeux de données seront publiés au format GeoJSON. Certains champs sont obligatoires et d'autres optionnels. Les champs obligatoires doivent être complétés. Pour les champs optionnels, nous recommandons de [ne pas faire apparaître le champ pour l'aménagement concerné lorsqu'il n'y a aucune valeur à renseigner](https://doc.transport.data.gouv.fr/producteurs/amenagements-cyclables/foire-a-questions#mon-fichier-nest-pas-valide-car-il-contient-des-valeurs-null-comment-corriger-cela) ou d'indiquer la valeur null (la chaine de caractères “null” n'est pas acceptée).
 
 Les producteurs pourront saisir leurs données sur : 
 - des outils internes ;
