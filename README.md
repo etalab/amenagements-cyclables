@@ -37,7 +37,7 @@ Les jeux de données seront publiés au format GeoJSON. Certains champs sont obl
 
 Les producteurs pourront saisir leurs données sur :
 - des outils internes ;
-- OpenStreetMap (OSM); 
+- [OpenStreetMap](https://www.openstreetmap.org) (OSM);
 - les outils développés par Vélo & Territoires à savoir :
     - Un [gabarit au format shapefile](https://github.com/etalab/schema-amenagements-cyclables/blob/master/tools/AC_TEMPLATE_SHP_QGIS.zip) pour QGIS ;
     - Un [script SQL pour la création d’une base de données Postgres/PostGIS](https://github.com/etalab/schema-amenagements-cyclables/blob/master/tools/AC_SQL_POSTGIS.zip) « vierge ».
@@ -52,9 +52,9 @@ Elles peuvent ajouter le mot-clef "aménagement cyclable" lors de la publication
 Les producteurs pourront :
 - publier directement sur data.gouv.fr ;
 - demander à Géovélo de convertir leurs données vers le schéma national ;
-- publier sur OpenStreetMap et Géovélo se chargera de la publication avec une conversion vers le schéma.
+- publier directement sur OpenStreetMap afin que Géovélo se charge de la conversion vers le schéma national et de la publication sur data.gouv.fr.
 
-Nous préconisons aux producteurs de données de publier leurs fichiers avec la règle de nommage suivante : `amenagementcyclable_nom.geojson` avec nom étant le nom de la collectivité productrice des données, par exemple `amenagementcyclable_ain.geojson`. Nous invitons également les producteurs de données à sélectionner "schéma d'aménagements cyclables" dans la liste déroulante de la section "schema" sur data.gouv.fr lorsqu'ils publieront leurs fichiers.
+Nous préconisons aux producteurs de données de publier leurs fichiers avec la règle de nommage suivante : `amenagementcyclable_nom.geojson` avec nom étant le nom de la collectivité productrice des données, par exemple `amenagementcyclable_ain.geojson`. **Nous invitons également les producteurs de données à sélectionner "schéma d'aménagements cyclables" dans la liste déroulante de la section "schema" sur data.gouv.fr lorsqu'ils publieront leurs fichiers.**
 
 En cas de mise à jour d’un fichier déjà intégré à la base consolidée, il est recommandé de prévenir l’équipe transport.data.gouv.fr qui s’assurera de l'actualisation du fichier en question et de son intégration dans la base consolidée à l'adresse : contact@transport.beta.gouv.fr
 
