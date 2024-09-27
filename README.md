@@ -35,13 +35,12 @@ Attention : ce jeu de données ne concerne pas le stationnement cyclable. Vous t
 
 Les jeux de données seront publiés au format GeoJSON. Certains champs sont obligatoires et d'autres optionnels. Les champs obligatoires doivent être complétés. Pour les champs optionnels, nous recommandons de [ne pas faire apparaître le champ pour l'aménagement concerné lorsqu'il n'y a aucune valeur à renseigner](https://doc.transport.data.gouv.fr/producteurs/amenagements-cyclables/foire-a-questions#mon-fichier-nest-pas-valide-car-il-contient-des-valeurs-null-comment-corriger-cela) ou d'indiquer la valeur `null` (la chaine de caractères `"null"` n'est pas acceptée).
 
-Les producteurs pourront saisir leurs données sur :
-- des outils internes ;
-- [OpenStreetMap](https://www.openstreetmap.org) (OSM) ;
-- les outils développés par Vélo & Territoires à savoir :
+Les producteurs peuvent saisir leurs données sur :
+- leurs logiciels internes, avec l'aide des outils développés par Vélo & Territoires, à savoir : 
     - Un [gabarit au format shapefile](https://github.com/etalab/schema-amenagements-cyclables/blob/master/tools/AC_TEMPLATE_SHP_QGIS.zip) pour QGIS ;
     - Un [script SQL pour la création d’une base de données Postgres/PostGIS](https://github.com/etalab/schema-amenagements-cyclables/blob/master/tools/AC_SQL_POSTGIS.zip) « vierge ».
- 
+- la base de données OpenStreetMap (OSM).
+
 Ces outils sont hébergés dans le dossier [tools](https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools) de ce répertoire. Pour toute question sur ces outils, vous pouvez contacter la cellule SIG de Vélo & Territoires à cette adresse : sig@velo-territoires.org
 
 
@@ -64,8 +63,7 @@ En cas de mise à jour d’un fichier déjà intégré à la base consolidée, i
 
 Cette base de données ainsi construite est issue de l’assemblage de fichiers de données transmis par des producteurs. Nous tenons à les remercier pour leur travail de normalisation des fichiers. 
 
-Trois bases seront publiées sur transport.data.gouv.fr :
-- une base nationale regroupant les données publiées par les collectivités sur data.gouv.fr ;
+Deux bases seront publiées sur transport.data.gouv.fr :
 - une [base rassemblant les données publiées sur ](https://transport.data.gouv.fr/datasets/amenagements-cyclables-france-metropolitaine/). Géovélo sera en charge de l'extraction de ces données et de leur mise à jour mensuelle ;
 - une base nationale consolidant les données publiées par les collectivités sur data.gouv.fr et celles publiées sur OSM. Cette base est hébergée par Vélo & Territoires et accessible via une carte en ligne à l'adresse suivante : [Velodatamap - carte aménagements](https://velodatamap.velo-territoires.org/vmap/dashboard/map?map_id=14).
 
