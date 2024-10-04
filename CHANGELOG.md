@@ -2,6 +2,10 @@
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma
 
+## Version 0.3.5 - 2024-10-04
+
+Evolution de la documentation
+
 ## Version 0.3.4 - 2023-03-28
 
 Correction du type du champ "date_maj" et ajout d'une vérification pour ce champ 

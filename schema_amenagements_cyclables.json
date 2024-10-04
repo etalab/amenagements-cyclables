@@ -23,9 +23,15 @@
                 }
             ],
             "created": "2020-12-10",
-            "lastModified": "2023-03-28",
-            "version": "0.3.4",
+            "lastModified": "2024-10-04",
+            "version": "0.3.5",
             "contributors": [
+                {
+                    "title": "Stéphane Pignal",
+                    "email": "contact@transport.data.gouv.fr",
+                    "organisation": "Transport.data.gouv.fr",
+                    "role": "contributor"
+                },
                 {
                     "title": "Miryad Ali",
                     "email": "contact@transport.beta.gouv.fr",
