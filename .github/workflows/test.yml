@@ -2,6 +2,7 @@ name: Vérification du respect des spécifications
 
 on:
   push:
+  workflow_dispatch:
 
 jobs:
   build:
