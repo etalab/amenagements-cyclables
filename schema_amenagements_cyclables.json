@@ -156,6 +156,8 @@
                                     "AMENAGEMENT MIXTE PIETON VELO HORS VOIE VERTE",
                                     "CHAUSSEE A VOIE CENTRALE BANALISEE",
                                     "ACCOTEMENT REVETU HORS CVCB",
+                                    "TRAVERSEE CYCABLE",
+                                    "TRAVERSEE CYCABLE PRIORITAIRE",
                                     "AUCUN",
                                     "AUTRE"
                                 ]
@@ -257,6 +259,8 @@
                                     "AMENAGEMENT MIXTE PIETON VELO HORS VOIE VERTE",
                                     "CHAUSSEE A VOIE CENTRALE BANALISEE",
                                     "ACCOTEMENT REVETU HORS CVCB",
+                                    "TRAVERSEE CYCABLE",
+                                    "TRAVERSEE CYCABLE PRIORITAIRE",
                                     "AUCUN",
                                     "AUTRE"
                                 ]
